@@ -192,6 +192,7 @@ int main(int argc, char* argv[]) {
         "27a0797cc5b042ba4c11e72a9555d13a67f00161550b32ede0511718b22dbc2c",
     };		
 
-    cout << merkleRoot(txHashes)[0];
+    cout << merkleRoot(txHashes)[0] << endl;   
+
     return 0;
 }
